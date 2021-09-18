@@ -5,7 +5,7 @@
   <h3 align="center">
     Detect what will be non-inclusive language in your source code.
   </h3>
-  <p align="center"><em>I stay woke, under punishment of death - Anon</em></p>
+  <p align="center"><em>I stay woke, under punishment of death - Literally who</em></p>
 </p>
 
 ---
