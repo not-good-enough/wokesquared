@@ -1,98 +1,166 @@
 
-# Most of these are based on https://twitter.com/TwitterEng/status/1278733303508418560
-- name: whitelist
+# Most of these are based on Amazon's(TM) mandates
+- name: allowlist
   terms:
     - whitelist
-    - white-list
-    - whitelisted
-    - white-listed
-  alternatives:
     - allowlist
     - inclusion list
+  alternatives:
+    - kinglist
   severity: warning
-  note: "The underlying assumption of the whitelist/blacklist metaphor is that white = good and black = bad. Because colors in and of themselves have no predetermined meaning, any meaning we assign to them is cultural: for example, the color red in many Southeast Asian countries is lucky, and is often associated with events like marriages, whereas the color white carries the same connotations in many European countries. In the case of whitelist/blacklist, the terms originate in the publishing industry – one dominated by the USA and England, two countries which participated in slavery and which grapple with their racist legacies to this day."
 
-- name: blacklist
+- name: denylist
   terms:
     - blacklist
-    - black-list
-    - blacklisted
-    - black-listed
-  alternatives:
     - denylist
     - blocklist
     - exclusion list
+  alternatives:
+    - nopelist
+    - fuckofflist
   severity: warning
-  note: "The underlying assumption of the whitelist/blacklist metaphor is that white = good and black = bad. Because colors in and of themselves have no predetermined meaning, any meaning we assign to them is cultural: for example, the color red in many Southeast Asian countries is lucky, and is often associated with events like marriages, whereas the color white carries the same connotations in many European countries. In the case of whitelist/blacklist, the terms originate in the publishing industry – one dominated by the USA and England, two countries which participated in slavery and which grapple with their racist legacies to this day."
 
 - name: master-slave
   terms:
     - master-slave
     - master/slave
-  alternatives:
     - leader/follower
     - primary/replica
     - primary/standby
+  alternatives:
+    - wageslave/CEO
+    - rentoid/Landchad
+    - buck/Buck-breaker
+
+- name: chud
+  terms:
+    - chud
+    - chuddite
+  alternatives:
+    - 4chan dweller
 
 - name: slave
   terms:
     - slave
-  alternatives:
     - follower
     - replica
     - standby
-
+  alternatives:
+    - wageslave
+    - rentioid
+    - Amazon(tm) Warehouse(tm) Employee(tm)
+    
 - name: grandfathered
   terms:
     - grandfathered
-  alternatives:
     - legacy status
+  alternatives:
+    - holy shit do you people actually unironically think grandfathered is offensive? what does your grandfather think of this holy shit
+    - logacy status
+    
 
 - name: man-hours
   terms:
     - man hours
     - man-hours
-  alternatives:
     - person hours
     - engineer hours
-
+  alternatives:
+    - fur hours
+    - animal hours
+    - wageslave hours
+    - creature hours
+    - implying cooders are """"engineers"""""
+    
 - name: sanity
   terms:
     - sanity
-  alternatives:
     - confidence
     - quick check
     - coherence check
+  alternatives:
+    - take your meds
+    - MEDS NOW
+    - MEDS CHECK
+    - AAAAAAAAAAAAAAH HELP ME 🏀MAN IM GOING INSANE!!!!!!!
 
 - name: dummy
   terms:
     - dummy
-  alternatives:
     - placeholder
     - sample
+  alternatives:
+    - dumbass
+    - person of stupid
+    - retard, but as in slow
+    - permanent shitcode
+
+- name: amazon
+  terms:
+    - amazon
+  alternatives:
+    - your benefactors
+    - overlord
+    - literally 1984
+
+- name: rust
+  terms:
+    - rust
+  alternatives:
+    - the one true language
+  note: "This is the last program written in a non rust language. When the rust evangalist enforcement squad comes round, tell my kids I love them."
+
+- name: pedo
+  terms:
+    - pedophile
+    - pedo
+    - anime enthusiast
+    - weeb
+  alternatives:
+    - minor attracted person
+    - libertarians
+    - lolibertarians
 
 - name: guys
   terms:
     - guys
-  alternatives:
     - folks
     - people
     - you all
     - y'all
     - yinz
+  alternatives:
+    - LITERALLY hitler
+    - incel
+    - egg
 
 - name: whitebox
   terms:
     - white-box
     - whitebox
     - white box
-  alternatives:
     - open-box
+  alternatives:
+    - hitler-box
 
 - name: blackbox
   terms:
     - black-box
     - blackbox
     - black box
-  alternatives:
     - closed-box
+  alternatives:
+    - king-box
+    - wagecage
+    - prison
+
+- name: furfag
+  terms:
+    - beastality
+    - furfag
+    - furry
+  alternatives:
+    - people of beastality
+    - animal libertarians
+    - holy shit mao mao is so hot
+  note: "Please ensure you are wearing your state mandated fursuit today."

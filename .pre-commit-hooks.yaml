@@ -1,5 +1,0 @@
-- id: woke
-  name: 'woke'
-  entry: scripts/pre-commit.sh
-  language: 'script'
-  description: "Runs `woke`"

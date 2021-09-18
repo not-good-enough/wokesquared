@@ -1,9 +1,0 @@
-{
-  "extends": [
-    "config:base",
-    ":semanticCommits",
-    "schedule:weekly"
-  ],
-  "postUpdateOptions": ["gomodTidy"],
-  "labels": ["renovate"]
-}

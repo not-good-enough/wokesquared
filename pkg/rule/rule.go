@@ -2,6 +2,7 @@ package rule
 
 import (
 	"fmt"
+	"math/rand"
 	"regexp"
 	"strings"
 
@@ -119,16 +120,19 @@ func (r *Rule) Reason(finding string) string {
 	}
 
 	reason := new(strings.Builder)
-	reason.WriteString(util.MarkdownCodify(finding) + " may be insensitive, ")
+	reason.WriteString("YIKES: " + util.MarkdownCodify(finding) + " may be insensitive sweaty, ")
 
 	if len(r.Alternatives) > 0 {
 		alt := make([]string, len(r.Alternatives))
 		for i, a := range r.Alternatives {
 			alt[i] = util.MarkdownCodify(a)
 		}
-		reason.WriteString(fmt.Sprintf("use %s instead", strings.Join(alt, ", ")))
+		insult := [19]string{"Nazi scum", "Chud", "Alt-righter", "Non-twitter user", "Discord groomer", "Incel", "Have sex.",
+			"Unmicrochipped", "Hitler", "Fursecutor", "Scum", "Literally soyjack", "Starwars hater", "Uneducated", "Science denier",
+			"Centrist", "Bigot", "Reddit hater", "Anime hater"}
+		reason.WriteString(fmt.Sprintf("use %s instead. %s", strings.Join(alt, ", "), insult[rand.Intn(19)]))
 	} else {
-		reason.WriteString("try not to use it")
+		reason.WriteString("Go fuck yourself. It's not my job to educate you, sweaty.")
 	}
 
 	return reason.String()
