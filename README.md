@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/not-good-enough/wokesquared">
-    <img alt="wokesquared logo" src="https://raw.githubusercontent.com/not-good-enough/wokesquared/main/assets/1millionhoursinpaint.png" height="80" />
+    <img alt="wokesquared logo" src="https://raw.githubusercontent.com/not-good-enough/wokesquared/Landchad/assets/1millionhoursinpaint.png" height="80" />
   </a>
   <h3 align="center">
     Detect what will be non-inclusive language in your source code.
